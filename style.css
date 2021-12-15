@@ -1,0 +1,39 @@
+ /* allowing all my header 1, paragraphs and list items to follow the same color and font family */
+h1,p, li{              
+  color:rgb(236, 231, 231); 
+  font-family:Cursive;    
+}
+h1{
+  font-size:52px;
+  padding-bottom: 4px;
+  border-bottom: 3px solid #3f4c66;
+}
+
+header div p {
+  font-size:20px;
+}
+/* This aligns any text to the middle of the screen */
+.text-center{
+  text-align: center;
+}
+div{
+  background-Color: darkred;
+}
+footer{
+  background-color: darkred 
+}
+
+li{
+  
+  font-size:20px; 
+}
+
+body main p{
+  color: black;
+  font-size:20px;
+}
+
+/* Inside the footer then div, I'm turning header 2's color to a light  grey */
+footer div h2{
+  color: rgb(236, 231, 231)
+}
